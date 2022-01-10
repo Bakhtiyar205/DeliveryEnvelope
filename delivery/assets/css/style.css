@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+    
+}
+
+.container{
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 100px 100px 20px 150px;
+
+
+}
+ 
+/* Icon */
+
+.icon{
+    margin-left: 36vw;
+    margin-bottom: 40px;
+    width:170px;
+    height: 150px;
+    background-color: rgb(255, 102, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+.truck {
+    color: white;
+}
+
+/* Text */
+
+.delivery-text {
+    margin-left: 29vw;
+    width: 30%;
+    height: 100%;
+    
+}
+
+.delivery-text h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.delivery-text p {
+    font-size: 23px;
+    color: rgb(173, 173, 173);
+}
